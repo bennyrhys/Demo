@@ -1,0 +1,282 @@
+body,div,p {
+	padding: 0;
+	margin: 0;
+}
+li {
+	list-style-type: none;
+}
+
+a{
+	text-decoration:none ;
+}
+/*内容*/
+body{
+	background-color: #EDEDED;
+}
+.main{
+	width: 1370px;
+	/* height: 2850px; */
+	height:1000px;
+	margin: auto ;
+}
+/*文字*/
+.main .text{
+	background-color: white;
+	height: 34px;
+	width: 100%;
+}
+.main .text img{
+	padding: 2px;
+	float: left;
+}
+.main .text .word{
+	float: left;
+	margin-top: 3px;
+}
+/*居中主体*/
+.main .juzhong{
+	width: 1310px;
+	height: 95%;
+	margin: auto;
+}
+/*插入图片*/
+.main .chatu{
+	height: 127px;
+	width: 100%;
+	margin: auto;
+}
+.main .juzhong .chatu a img{
+	width: 645px;
+	align-content: center;
+	height: 80px;
+	margin-top: 23px;
+	
+}
+
+.main .juzhong .chatu .tu1{
+	float: left;
+}
+.main .chatu .tu2{
+	float: right;
+}
+/*滚图*/
+.main .juzhong .guntu{
+	width: 100%;
+	height: 551px;
+}
+.main .juzhong .guntu ul li img{
+	height: 120%;
+	width: 120%;
+}
+/*插入*/
+
+
+#wrapper {
+    width: 1088px;
+    margin: 25px auto;
+}
+
+#intro {
+    padding-bottom: 10px;
+}
+
+#slider {
+    width: 1088px;
+    margin: 0 auto;
+    position: relative;
+	border: 0px solid #ccc;
+}
+
+.scroll {
+	overflow: hidden;
+	width: 1088px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.scrollContainer {
+	position: relative;
+}
+
+.scrollContainer div.panel {
+    padding: 10px;
+    width: 274px;
+	height: 318px;
+}
+
+#left-shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 12px;
+	bottom: 0;
+	background: url(../img/leftshadow.png) repeat-y;
+}
+
+#right-shadow {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 12px;
+	bottom: 0;
+	background: url(../img/rightshadow.png) repeat-y;
+}
+
+.inside {
+	padding: 10px;
+	border: 1px solid #999;
+}
+
+.inside img {
+	display: block;
+	border: 1px solid #666;
+	margin: auto auto;
+	width: 250px;
+}
+
+.inside h2 {
+	font-weight: normal;
+	color: #111;
+	font-size: 16px;
+	text-align: center;
+}
+
+.inside p {
+	font-size: 11px;
+	color: #ccc;
+}
+
+a {
+	color: #999;
+	text-decoration: none;
+	border-bottom: 1px dotted #ccc;
+}
+
+a:hover {
+	border-bottom: 1px solid #999;
+}
+
+.scrollButtons {
+    position: absolute;
+    top: 127px;
+    cursor: pointer;
+}
+
+.scrollButtons.left {
+    left: -45px;
+}
+
+.scrollButtons.right {
+    right: -45px;
+}
+
+.hide {
+    display: none;
+}
+/* ========== */
+/* = 滚图结束 = */
+/* ========== */
+/*展板导航*/
+.main .juzhong .zhanban{
+	width: 100%;
+	height: 200px;
+	background-color: white;
+}
+.main .juzhong .zhanban ul li{
+	margin: auto;
+	width: 20%;
+	height: 198px;
+	float: left;
+}
+.main .juzhong .zhanban ul .ban1 img{
+	margin-top:20px ;
+	width: 100px;
+	height: 100px;
+}
+.main .juzhong .zhanban ul .ban1 .word{
+	color: #666666;
+}
+/* ========== */
+/* = 分区 = */
+/* ========== */
+/*最新内容*/
+.main .juzhong .zuixin{
+	width: 100%;
+	height: 480px;
+	border: 1px solid black;
+}
+.main .juzhong .zhuanji{
+	width: 100%;
+	height: 480px;
+	border: 1px solid black;
+}
+.main .juzhong .remen{
+	width: 100%;
+	height: 480px;
+	border: 1px solid black;
+}
+.main .juzhong .leibie{
+	width: 100%;
+	height: 480px;
+	border: 1px solid black;
+}
+
+
+/* ========== */
+/* = 分区结束 = */
+/* ========== */
+/*页尾*/
+foot{
+	width:100%;
+	height:900px;
+	background: url(../img/foot1.png) no-repeat;
+}
+
+.foot1,.foot2,.foot3,.foot4{
+	width:100%;
+}
+.foot1{
+	height:38px;
+	background: url(../img/foot1.png) no-repeat;
+	background-size:100%; 
+}
+.foot2{
+	height:350px;
+	background: url(../img/foot2.png) no-repeat;
+	background-color: white;
+	background-size:100%; 
+}
+.foot3{
+	height:200px;
+	background: url(../img/foot3.png) no-repeat;
+	background-color: #282828;
+	background-size:100%; 
+}
+.foot_xuanchuan1,.foot_xuanchuan2,.foot_xuanchuan3{
+	width:370px;
+	height: 150px;
+	line-height: 200px;
+	float: left;
+}
+.foot_xuanchuan1 li{ 
+	float: left;
+}
+.foot_xuanchuan3 td{
+	height:"30px;"
+}
+.foot_xuanchuan2{
+	background: url(../img/biaoti_logo.png)no-repeat;
+	background-size: 100%; 
+	
+}
+.foot4{
+	height:20px;
+	background: url(../img/foot4.png) no-repeat;
+	background-color: #0E0E0E;
+	background-size:100%; 
+}
+foot .footin{
+	width:1130px;
+	margin:0 auto;
+	padding: 30px;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>吉他易学网搜索</title>
+
+  <link rel="stylesheet" href="css/sousuo_jianyue.css">
+
+    <link rel="stylesheet" href="css/soushuo_jianyue1.css" media="screen" type="text/css" />
+
+  <script src="js/soushuo_jianyue.js"></script>
+<!--搜索简约-->
+<link rel="stylesheet" type="text/css" href="css/soushuo_qiu.css">
+<style type="text/css">
+	#tag-cloud{
+		width:640px;
+		height:480px;
+		margin: 50px auto;
+	}
+</style>
+</head>
+<body>
+<div class="zzsc-container">
+	<div id='tag-cloud'></div>
+</div>
+<script src="js/soushuo_qiu.js" type="text/javascript"></script>
+<script src="js/soushuo_qiu1.min.js"></script>
+<script>
+	$( document ).ready( function() {
+		var entries = [ 
+			{ label: '主页', url: 'http://localhost:8080/EasyGuitar2/main.jsp', target: '_self' },
+			{ label: '用户搜索', url: 'http://localhost:8080/EasyGuitar2/auth/user/list.jsp', target: '_self' },
+			{ label: '教师搜索', url: 'http://localhost:8080/EasyGuitar2/auth/teacher/list.jsp', target: '_self' },
+			{ label: '用户作品搜索', url: 'http://localhost:8080/EasyGuitar2/opus/opus/list.jsp', target: '_slef' },
+			{ label: '教师作品搜索', url: 'http://localhost:8080/EasyGuitar2/opus/to/list.jsp', target: '_self' },
+			{ label: '百度', url: 'https://www.baidu.com/', target: '_self' },
+			{ label: '谷歌', url: 'https://www.google.cn/', target: '_self' },
+			{ label: '爱奇艺', url: 'https://www.iqiyi.com/', target: '_self' },
+			{ label: '腾讯', url: 'https://v.qq.com/', target: '_self' },
+			{ label: '优酷', url: 'https://www.youku.com/', target: '_self' },
+			{ label: 'csdn', url: 'https://www.csdn.net/', target: '_self' },
+			{ label: '网易云音乐', url: 'https://music.163.com/', target: '_self' },
+			{ label: '源码之家', url: 'http://www.mycodes.net/', target: '_self' },
+			{ label: '腾讯课堂', url: 'https://ke.qq.com/', target: '_self' },
+			{ label: 'bootstrap', url: 'https://www.runoob.com/bootstrap/bootstrap-tutorial.html', target: '_self' },
+			
+			/* { label: 'CodePen', url: 'http://www.xwcms.net/', target: '_top' },
+			{ label: 'three.js', url: 'http://www.xwcms.net/', target: '_top' },
+			{ label: 'Form Validation', url: '#', target: '_top' },
+			{ label: 'JS Compress', url: 'http://www.xwcms.net/', target: '_top' },
+			{ label: 'TinyPNG', url: 'http://www.xwcms.net/', target: '_top' },
+			{ label: 'Can I Use', url: 'http://www.xwcms.net/', target: '_top' },
+			{ label: 'URL shortener', url: 'http://www.xwcms.net/', target: '_top' },
+			{ label: 'Grid Layout', url: '#', target: '_top' },
+			{ label: 'Twitter', url: 'http://www.xwcms.net/', target: '_top' },
+			{ label: 'deviantART', url: 'http://www.xwcms.net/', target: '_top' },
+			{ label: 'Gulp', url: 'http://www.xwcms.net/', target: '_top' },
+			{ label: 'Browsersync', url: 'http://www.xwcms.net/', target: '_top' },
+			{ label: 'GitHub', url: 'https://github.com/', target: '_top' },
+			{ label: 'Shadertoy', url: 'http://www.xwcms.net/', target: '_top' },
+			{ label: 'Tree View', url: '#', target: '_top' },
+			{ label: 'jsPerf', url: 'http://www.xwcms.net/', target: '_top' },
+			{ label: 'Foundation', url: 'http://www.xwcms.net/', target: '_top' },
+			{ label: 'CreateJS', url: 'http://www.xwcms.net/', target: '_top' },
+			{ label: 'Velocity.js', url: 'http://www.xwcms.net/', target: '_top' },
+			{ label: 'TweenLite', url: 'http://www.xwcms.net/', target: '_top' },
+			{ label: 'jQuery', url: 'http://www.xwcms.net/', target: '_top' },
+			{ label: 'Notification', url: '#', target: '_top' },
+			{ label: 'Parallax', url: '#', target: '_top' } */
+		];
+		var settings = {
+			entries: entries,
+			width: 640,
+			height: 480,
+			radius: '65%',
+			radiusMin: 75,
+			bgDraw: true,
+			bgColor: 'transparent',
+			opacityOver: 1.00,
+			opacityOut: 0.05,
+			opacitySpeed: 6,
+			fov: 800,
+			speed: 0.5,
+			fontFamily: 'Oswald, Arial, sans-serif',
+			fontSize: '15',
+			fontColor: '#fff',
+			fontWeight: 'normal',//bold
+			fontStyle: 'normal',//italic 
+			fontStretch: 'normal',//wider, narrower, ultra-condensed, extra-condensed, condensed, semi-condensed, semi-expanded, expanded, extra-expanded, ultra-expanded
+			fontToUpperCase: true
+		};
+		//var svg3DTagCloud = new SVG3DTagCloud( document.getElementById( 'holder'  ), settings );
+		$( '#tag-cloud' ).svg3DTagCloud( settings );
+	} );
+</script>
+<div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';">
+</div>
+<!--  ==========  -->
+<!--  = 上方云关键字 =  -->
+<!--  ==========  -->
+<!--   <form class="search" action="">
+  <input type="search" placeholder="Search here..." required>
+  <button type="submit">Search</button>
+</form> -->
+
+  <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
+
+</body>
+
+</html>

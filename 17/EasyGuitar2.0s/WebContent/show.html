@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>show作品页面</title>
+<link rel="stylesheet" type="text/css" href="css/section_show.css"/>
+</head>
+<body>
+	<!--
+    	作者：bennrhys@163.com
+    	时间：2018-08-19
+    	描述：标题
+    -->
+    	<div class="section">
+			<div class="head">
+				<div class="into">
+				<a href="houlogin.html"><img width="30px" height="30px" src="img/tixing.png" /></a>
+				<span class="word">欢迎来到干货最多的吉他教学网站，没有之一！！！</span>
+				</div>
+			</div>
+			<div class="tupian">
+					<a href=""><img class="tu1" src="img/chatu1.png"/></a>
+					<a href=""><img class="tu2" src="img/chatu2.png"/></a>
+			</div>
+			<div class="teach">
+				 <!--
+    	作者：bennrhys@163.com
+    	时间：2018-08-19
+    	描述：内容
+    -->
+	<div class="neirong">
+			<div class="neirong_into">
+				<ul>
+					<li><a href=""><img src=""/>登录</a></li>&nbsp;
+					<li><a href=""><img src=""/>个人中心</a></li>&nbsp;
+					<li><a href=""><img src=""/>收藏</a></li>
+					<li><a href=""><img src=""/>歌曲信息插入</a></li>
+				</ul>
+			
+			<div class="view">
+				<div class="view_into">
+					滚图 <img src=""/>
+				</div>
+			</div>
+			<div class="shipin">
+				<div class="shipin_into">
+				           视频<a href=""></a>
+				</div>
+			</div>
+			<div class="shipin">
+				<div class="shipin_into">
+					曲谱<img src="" />
+				</div>
+			</div>
+			<div class="pinglun">
+				<form action="${pageContext.request.contextPath}/servlet/comment">
+				<div class="shuru">
+					
+					<div class="text">
+						<input type="hidden" name="op" value="add">
+						<input type="hidden" name="opus_id" value="${opus.id}">
+						<input type="text" name="comment1" maxlength="50px" size="50"  value="50字内哦！！！">
+					</div>
+					<div class="button">
+						<input type="submit" value="评论">
+					</div>
+				</div>
+				</form>
+				<div class="tishi">
+					<span class="word">
+						请用户老爷先登录，在进行收藏评论!!!
+					</span>
+				</div>
+				<div class="qu">
+				评论区
+				</div>
+								
+			</div>
+		</div>
+	</div>
+		<!--
+	    	作者：bennyrhys@163.com
+	    	时间：2018-07-30
+	    	描述：广告
+	    -->
+		<div class="guanggao">
+			<div class="into1">
+				<a href=""><img src="../../img/timg.jpg"/></a>
+			</div>
+			<div class="into2">
+				<a href=""><img src="../../img/guang.pngg"/></a>
+			</div>
+			<div class="into3">
+				<a href=""><img src="../../img/guang7.png"/></a>
+			</div>
+		</div>
+			</div>
+		</div>
+   
+			
+</body>
+</html>

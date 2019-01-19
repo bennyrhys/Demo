@@ -1,0 +1,73 @@
+body,div,p {
+	padding: 0;
+	margin: 0;
+}
+li {
+	list-style-type: none;
+}
+
+a{
+	text-decoration:none ;
+}
+iframe{
+	background-color: white;
+    position:absolute;
+    left: 15%;
+	right: 0;
+	top: 7%;
+	bottom:0;
+	margin:auto;
+    z-index: 0;
+}
+/*导航*/
+.nav {
+	height: 100%;
+	width: 15%;
+	background: #323841;
+	float: left;
+	position:absolute;
+	z-index: 3;
+}
+.nav ul li{
+	padding: 5px;
+}
+.nav ul a{
+	font-size: 15px;
+	color: #DDDDDD;
+}
+/*右边*/
+.pangbian{
+	height:730px;
+	width:86%;
+	float: left;
+	background-color: #EDEDED;
+}
+/*登录注册*/
+.pangbian .head{
+	height: 7%;
+	width: 100%;
+	background-color: #323841;
+	position:absolute;
+	z-index: 2;
+}
+.pangbian .head .vip ul{
+	margin-left:250px ;
+	
+	float: left;
+}
+.pangbian .head .vip  li{
+	float: left;
+}
+.pangbian .head .vip li a{
+	margin: 15px;
+}
+.pangbian .head .vip span{
+	float: right;
+	color: white;
+	margin: 10px auto 20px;
+}
+.pangbian .main{
+	height: 715px;
+	width: 100%;
+	
+}

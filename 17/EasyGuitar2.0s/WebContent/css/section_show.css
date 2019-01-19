@@ -1,0 +1,177 @@
+charset "UTF-8";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
+a{
+  text-decoration: none;
+}
+li{
+	list-style: none;
+}
+body{
+	background-color: #ccc;
+}
+
+.rame{
+	position: absolute;
+	left: 0;
+	top: 135px;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	z-index: 0;
+}
+.section{
+	width: 100%;
+	height: 200%;
+
+}
+.section .head{
+	width: 100%;
+	height: 34px;
+	background-color: white;
+}
+.section .head .into{
+	margin: auto 0;
+	height: 34px;
+	width:1376px ;
+	margin: auto;
+	height: 34px;
+}
+.section .head .into img{
+	padding: 2px;
+	float: left;
+}
+.section .head .into .word{
+	float: left;
+	margin-top: 3px;
+}
+.section .tupian{
+	margin: auto 0;
+	height: 200px;
+	width:1376px ;
+	margin: auto;
+	height: 110px;
+}
+.section .tupian img{
+	float: left;
+	padding: 9px;
+	
+}
+.section .teach{
+	width: 1336px;
+	height: 100%;
+	margin: auto ;
+}
+/* ========== */
+/* = 上方固定背景 = */
+/* ========== */
+
+.neirong{
+	width: 78%;
+	height: 200%;
+	float: left;
+	/*  background-color: white;  */
+
+	
+}
+.guanggao{
+	width: 20%;
+	height: 100%;
+	float: right;
+	background-color: white;
+}
+.neirong .neirong_into{
+	width: 1000px ;
+	height: 100%;
+	margin: auto;
+}
+.neirong .neirong_into ul {
+	width: 100%;
+	height: 60px;
+}
+.neirong .neirong_into ul li{
+	float: left;
+	padding: 20px;
+}
+.neirong .neirong_into .view{
+	width: 100%;
+	height: 370px;
+}
+.neirong .neirong_into .view .view_into{
+	width: 80%;
+	height: 300px;
+	line-height: 300px;
+	margin: 30px auto 30px;
+}
+.neirong .neirong_into .shipin{
+	width: 100%;
+	height: 500px;
+}
+.neirong .neirong_into  .shipin .shipin_into {
+	width: 900px;
+	height: 460px;
+	line-height: 460px;
+	margin: 30px auto 30px;
+}
+.neirong .neirong_into  .shipin .shipin_into img{
+	width: 850px;
+	height: 450px;
+}
+.neirong .neirong_into .pinglun{
+	width: 80%;
+	height:450px;
+	margin: auto;
+}
+.neirong .neirong_into .pinglun .shuru{
+	height: 40px;
+	width: 100%;
+}
+.neirong .neirong_into .pinglun .shuru .text{
+	width: 85%;
+	height: 35px;
+	float: left;
+}
+.neirong .neirong_into .pinglun .shuru .button{
+	width: 10%;
+	height: 35px;
+	float: right;
+}
+.neirong .neirong_into .pinglun .tishi{
+	width: 100%;
+	height: 30px;
+}
+.neirong .neirong_into .pinglun .tishi .word{
+	color: red;
+	text-align: center;
+	font-size: 16px;
+}
+.neirong .neirong_into .pinglun .qu{
+	width: 100%;
+	height: 300px;
+	padding: 8px;
+}
+/* ========== */
+/* = 广告 = */
+/* ========== */
+.guanggao .into1{
+	width: 100%;
+	height: 30%;
+	
+}
+.guanggao .into2{
+	width: 100%;
+	height: 40%;
+}
+.guanggao .into3{
+	width: 100%;
+	height: 30%;
+}
+.guanggao .into1 img, .guanggao .into3 img{
+	width: 100%;
+	height: 100%;
+	margin: auto;
+}
